@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item android:drawable="@drawable/user_icon"/>
+    <item >
+        <shape
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:innerRadiusRatio="2"
+            android:shape="ring"
+            android:thicknessRatio="2"
+            android:useLevel="false">
+            <solid android:color="@android:color/white" />
+            <size
+                android:height="48dip"
+                android:width="48dip" />
+        </shape>
+    </item>
+
+</layer-list>
